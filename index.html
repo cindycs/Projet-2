@@ -32,21 +32,19 @@
         <main>
             <!--------------- SECTION RECHERCHE ----------------->
             <div class="search">
-                <div class="button-search">
-                    <form method="get" action="">
-                        <div class="search-content">
-                            <i class="fa-solid fa-location-dot icon-pos"></i>
-                            <input type="search" class="input-search-text" />
-                            <input type="button" class="btn-search" value="Rechercher" />
-                        </div>
-                        <div class="search-content-mobile">
-                            <i class="fa-solid fa-location-dot icon-pos"></i>
-                            <input type="search" class="input-search-text" />                               
-                            <input type="button" class="btn-search"  />
-                            <i class="btn-icon fa-solid fa-magnifying-glass"></i>
-                        </div>
-                    </form>
-                </div>
+                <form method="get" action="" class="button-search">
+                    <div class="search-content">
+                        <i class="fa-solid fa-location-dot icon-pos"></i>
+                        <input type="search" class="input-search-text" />
+                        <input type="submit" class="btn-search" value="Rechercher" />
+                    </div>
+                    <div class="search-content-mobile">
+                        <i class="fa-solid fa-location-dot icon-pos"></i>
+                        <input type="search" class="input-search-text" />                               
+                        <input type="submit" class="btn-search" value="" />
+                        <i class="btn-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </form>
             </div>
             <!--------------- SECTION FILTRES ----------------->
             <div class="filter">
@@ -181,7 +179,7 @@
                             </article>
                         </a>
                     </div>
-                    <a href="#">Afficher plus</a>
+                    <a href="#" class="more">Afficher plus</a>
                 </section>
                 <!------------------ SECTION POPULAIRE ---------------->
                 <section class="populaires">
