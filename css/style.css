@@ -116,7 +116,7 @@ h1 {
     height:45px;   
 }
 
-.search .fa-solid {
+.search .icon-pos {
     color: #000;
 }
 
@@ -490,14 +490,19 @@ footer {
 
     .btn-search {
         box-shadow: 0px 5px 5px #c2c2c2;
-        border-radius: 10px;;
+        border-radius: 10px;
     }
 
     .btn-icon i {
         position: relative;
-        left: 30px;
-        bottom: 14px;
+        left: 33px;
+        bottom: 16px;
     }
+
+    .fa-magnifying-glass{
+        color:#fff;
+    }
+
     .btn-icon input {
         width: 40px;
     }
