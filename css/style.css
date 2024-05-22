@@ -542,4 +542,21 @@ footer {
     .hebergements a, .heber-card {
         width:100%;
     }
+
+    /* -------- ACTIVITES ------ */
+    .acti-section-card {
+        flex-direction: column;
+    }
+    
+    .acti-link {
+        width: 100%;
+    }
+    
+    .acti-card img {
+        height : 150px;
+    }
+
+    .acti-card p {
+        padding-bottom: 20px;
+    }
 }
