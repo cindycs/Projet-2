@@ -191,10 +191,11 @@ input:focus, input:active {
 
 .filter a {
     font-weight:bold;
+    padding : 16px;
 }
 
 .btn-filter {
-    padding: 16px 16px 16px 16px;
+    display: flex;
     margin: 0px 12px 0px 0px;
     border-radius: 30px;
     border: 2px solid var(--main-bg-color);
@@ -260,7 +261,7 @@ input:focus, input:active {
 }
 
 .heber-card {
-    width: 210px;
+    width: 250px;
     padding:4px;
     background-color: #fff;
     border-radius: 20px;
@@ -275,10 +276,11 @@ input:focus, input:active {
 .heber-card-content h3, .heber-card-content p {
     margin-bottom: 6px;
     margin-top: 6px;
-    font-size: 12px;
 }
+
 .more {
     display: block;
+    width: 100px;
     margin-top: auto;
     margin-bottom: auto;
     font-weight: bold;
@@ -443,6 +445,14 @@ footer {
     .acti-card img {
         height: 200px;
     }
+
+    .heber-card {
+        width: 210px;
+    }
+
+    .filter{
+        display: block;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -550,15 +560,18 @@ footer {
         margin-bottom: 0px;
     }
 
-    .filter a {
-        width: 50%;
-    }
-
     .list-btn {
         display:flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px 0px;
+        gap: 10px 10px;     
+    }
+
+    .btn-filter {
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
     }
 
     .hebergements{
