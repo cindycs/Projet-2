@@ -41,6 +41,10 @@ a {
     font-size: 22px;
 }
 
+.section-title h2{
+    margin-top: 12px;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -119,7 +123,7 @@ nav img {
 }
 
 .header-desc p {
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 /******* Barre de recherche ************/
@@ -249,6 +253,7 @@ input:focus, input:active {
 
 .hebergements h2 {
     margin-top: 8px;
+    margin-bottom: 30px;
 }
 
 .hebergement-card {
