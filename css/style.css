@@ -109,8 +109,17 @@ nav img {
     border-top: 3px solid var(--main-color);
 }
 
-h1 {
+.header-desc {
+    margin-bottom: 8px;
+}
+
+.header-desc h1 {
     font-size:20px;
+    margin-bottom: 8px;
+}
+
+.header-desc p {
+    margin-bottom: 0px;
 }
 
 /******* Barre de recherche ************/
@@ -127,9 +136,6 @@ h1 {
 .search-content {
     display:flex;
     height:100%;
-}
-
-.button-search {
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -166,7 +172,7 @@ input:focus, input:active {
     cursor:pointer;
 }
 
-.search-content-mobile {
+.btn-search-mobile {
     display:none;
 }
 
@@ -187,6 +193,7 @@ input:focus, input:active {
     display:flex;
     flex-direction:row;
     padding-left: 0;
+    row-gap: 20px;
 }
 
 .filter a {
@@ -358,7 +365,7 @@ input:focus, input:active {
 }
 
 .acti-link {
-    display :block;
+    display: block;
     width: 22%;
 }
 
@@ -414,6 +421,10 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filter {
+        margin-top: 24px;
+        margin-bottom: 28px;
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -510,33 +521,25 @@ footer {
     } 
 
     /* ------- SEARCH -------- */
-    .search-content {
-        display:none;
-    }
 
-    .search-content-mobile {
-        display:flex;
-        height:100%;
-    }
-    
-    .search-content-mobile i {
-        height:100%;
+    .btn-search-mobile {
+        box-shadow: 0px 5px 5px #c2c2c2;
+        border-radius: 10px;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: var(--main-color);
+        cursor:pointer;
     }
 
     .btn-search {
-        box-shadow: 0px 5px 5px #c2c2c2;
-        border-radius: 10px;
+        display: none;
     }
 
     .input-search-text{
         height:100%;
         flex:1;
-    }
-
-    .btn-icon {
-        position: relative;
-        left: -28px;
-        bottom: -15px;
     }
 
     .fa-magnifying-glass{
@@ -546,11 +549,6 @@ footer {
     .button-search {
         width: 100%;
     }
-
-    .btn-search {
-        width: 45px;
-    }
-
 
     /* --------- FILTRES ------- */
     .filter {
@@ -599,6 +597,11 @@ footer {
     .hebergement-card {
         flex-direction: column;
     }
+
+    .hebergement-card a{
+        width: 100%;
+    }
+
     .heber-card {
         width: 100%;
         box-sizing: border-box;
