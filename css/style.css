@@ -417,7 +417,7 @@ footer {
     padding-bottom: 12px;
 }
 
-.column-footer li:hover {
+.column-footer li a:hover {
     opacity: 0.5;
 }
 
