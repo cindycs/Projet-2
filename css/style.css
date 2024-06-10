@@ -574,10 +574,10 @@ footer {
     }
 
     .btn-filter {
-        width: 47%;
         display: flex;
         justify-content: center;
         margin: 0px;
+        flex: 1 1 48%;
     }
 
     .hebergements{
@@ -637,5 +637,6 @@ footer {
 
     .column-footer {
         width: 100%;
+        box-sizing: content-box;
     }
 }
