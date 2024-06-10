@@ -634,4 +634,8 @@ footer {
     footer {
         flex-direction: column;
     }
+
+    .column-footer {
+        width: auto;
+    }
 }
