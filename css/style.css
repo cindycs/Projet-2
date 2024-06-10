@@ -634,9 +634,4 @@ footer {
     footer {
         flex-direction: column;
     }
-
-    .column-footer {
-        width: 100%;
-        box-sizing: content-box;
-    }
 }
